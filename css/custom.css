@@ -1,0 +1,123 @@
+body {
+  background-image: url("images/dp.jpg");
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+.navglobe-pright{
+	padding-right: 290px;
+}
+.nav-location{
+	padding-left: 200px;
+}
+.nav-button{
+	height: 50px;
+	border-radius: 25px;
+}
+/* .nav-button .btn-outline-dark {
+  background-color: yellow !important;
+} */
+
+
+/* SearchBar Icon */
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #e74c3c;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
+
+  /* Explore                                                                                                                                                                                                                                                                                                                                     */
+.explore{
+	/* padding-top:100px; */
+}
+
+.explore p{
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size:108px;
+  line-height:92.88px;
+  color: #fff;
+  letter-spacing:-2.16px;
+  text-decoration:none solid rgb(255, 255, 255);
+  font-weight:800;
+}
+
+
+/* error */
+
+#main{
+  text-align: center;
+}
+
+.fof{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof span{
+  color: #6582A0;
+  font-weight: bolder;
+}
+
+.fof h1{
+  font-size: 50px;
+  display: inline-block;
+  animation: type .5s alternate infinite;
+}
+
+.fof h2{
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fof p{
+  font-weight: lighter;
+}
+
+
+
+@keyframes type{
+  from{box-shadow: inset -3px 0px 0px #888;}
+  to{box-shadow: inset -3px 0px 0px transparent;}
+}
